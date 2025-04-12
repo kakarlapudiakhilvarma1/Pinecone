@@ -21,7 +21,7 @@ load_dotenv()
 
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
-INDEX_NAME = "pdf-rag-index"
+INDEX_NAME = "pdf-rag-index"      #Add your required index name to create/connect with pinecone
 
 # Initialize Pinecone
 @st.cache_resource
